@@ -17,9 +17,17 @@ android {
     }
 
     defaultConfig {
+        applicationId = "com.coco.studyos"
+        minSdk = 29
+        targetSdk = 36
+        versionCode = 1
+        versionName = "1.0"
+    }
 
     buildTypes {
-        release { isMinifyEnabled = false }
+        release {
+            isMinifyEnabled = false
+        }
     }
 }
 
